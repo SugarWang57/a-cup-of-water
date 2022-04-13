@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/main_iv_more"
+        android:padding="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:src="@drawable/ic_more"/>
+
+    <TextView
+        android:id="@+id/main_tv_greet"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="晚上好!"/>
+
+    <TextView
+        android:id="@+id/main_tv_goal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="距目标还剩5杯"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="230dp"/>
+
+    <TextView
+        android:id="@+id/main_tv_done"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="今天已喝完0杯"
+        android:gravity="center"
+        android:textSize="21sp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_marginTop="270dp"/>
+
+
+    <ImageView
+        android:id="@+id/main_iv_add"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="630dp"/>
+
+
+</RelativeLayout>
